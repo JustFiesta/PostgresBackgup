@@ -41,3 +41,27 @@ Second step - README Driven Development
 Creation of this README
 
 NOTE: Documentation in Python ecosystem is most often written in [reStructuredText](https://docutils.sourceforge.io/rst.html)
+
+Third step - Directories and base files
+---------------------------------------
+
+    /
+        src/                        - source directory
+            
+            pgbackup/               - project files
+
+                __init__.py         - file for Python to figure out: structure and packages/modules of project, and potentailly contain submodules
+
+            test/                   - automated tests directory
+
+
+
+    `setup.py <https://setuptools.pypa.io/en/latest/setuptools.html#basic-use>`_            - file for sake of this app being installable (used for setup tools lib)
+
+    `Makefile <https://www.gnu.org/software/make/manual/make.html>`_ - file for installing dependencies for script
+
+Note: To check if setup.py is correct in ``pipenv shell`` run ``pip install -e .``
+      Then to remove this package in venv use: ``pip uninstall pgbackup``
+
+Development process
+-------------------
