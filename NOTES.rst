@@ -65,3 +65,9 @@ Note: To check if setup.py is correct in ``pipenv shell`` run ``pip install -e .
 
 Development process
 -------------------
+
+Test driven development was used (RED > GREEN > REFACTOR). At first tests were created.
+
+Baisiclly how it works: run tests -> fix everything asap -> check tests /if okey proceed -> refacor code 
+
+1. ``pipenv install --dev pytest`` as a development dependency
