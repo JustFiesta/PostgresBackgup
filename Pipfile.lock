@@ -1,12 +1,12 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b617cc54d18ae54eeec8aa4a698a24f5596ff3efd94feef91367caa1ad6dd0b5"
+            "sha256": "a31fb115130524c14b364ef0f49a47c630d954bd699568f69d96b96a58c4c564"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_full_version": "3.10.11",
-            "python_version": "3.10"
+            "python_full_version": "3.12.2",
+            "python_version": "3.12"
         },
         "sources": [
             {
@@ -25,14 +25,6 @@
             ],
             "markers": "sys_platform == 'win32'",
             "version": "==0.4.6"
-        },
-        "exceptiongroup": {
-            "hashes": [
-                "sha256:4bfd3996ac73b41e9b9628b04e079f193850720ea5945fc96a08633c66912f14",
-                "sha256:91f5c769735f051a4290d52edd0858999b57e5876e9f85937691bd4c9fa3ed68"
-            ],
-            "markers": "python_version < '3.11'",
-            "version": "==1.2.0"
         },
         "iniconfig": {
             "hashes": [
@@ -66,14 +58,6 @@
             "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==8.1.1"
-        },
-        "tomli": {
-            "hashes": [
-                "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc",
-                "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"
-            ],
-            "markers": "python_version < '3.11'",
-            "version": "==2.0.1"
         }
     }
 }

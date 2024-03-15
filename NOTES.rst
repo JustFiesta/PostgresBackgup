@@ -35,6 +35,13 @@ NOTE: if something went wrong during creation of venv - remove current virtualen
 
         ``python3.6 -m pipenv install --python=$(which python3.6)``
 
+NOTE: to upgrade python version for  virtual enviroment use:
+    1. ``pipenv --rm`` to destroy the existing virtualenv
+
+    2. Edit the python_version line of your Pipfile to the desired Python version
+
+    3. ``pipenv update`` to create the new virtualenv and update your dependencies
+
 Second step - README Driven Development
 ---------------------------------------
 
