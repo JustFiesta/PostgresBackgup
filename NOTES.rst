@@ -77,6 +77,8 @@ Test driven development was used (RED > GREEN > REFACTOR). At first tests were c
 
 Baisiclly how it works: run tests -> fix everything asap -> check tests /if okey proceed -> refacor code 
 
-1. ``pipenv install --dev pytest`` as a development dependency
+At start: ``pipenv install --dev pytest`` as a development dependency
 
-Creating the cli interface first
+Creating the cli interface first - write test for (un)expected use cases and debug from there
+Make test a bit more flexible thanks to ``@pytest.fixture``
+
