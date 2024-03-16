@@ -5,7 +5,7 @@ from src.pgbackup import cli
 
 url = "postgres://bob@example.com:5432/db_one"
 
-# function returning function
+# function returning function - enables developers to inject function to other functions
 @pytest.fixture
 def parser():
     return cli.create_parser()
