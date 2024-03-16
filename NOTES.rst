@@ -79,6 +79,11 @@ Baisiclly how it works: run tests -> fix everything asap -> check tests /if okey
 
 At start: ``pipenv install --dev pytest`` as a development dependency
 
-Creating the cli interface first - write test for (un)expected use cases and debug from there
+Write test for (un)expected use cases
+Create the modules and debug from there 
 Make test a bit more flexible thanks to ``@pytest.fixture``
-
+Make Buisness logic 
+Make cli
+Use ``python -m pip install build`` to ``python -m pip install build`` outside of venv - to create a wheel file
+*Upload wheel file using this app to s3 using python cli (import boto, set client to s3, open wheel file as f, and client.upload)
+*Exit venv and try to install pgbackup from s3 using ``pip install --user https://s3.amazon.com/link``

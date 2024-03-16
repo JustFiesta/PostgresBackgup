@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "88f815fafed56560b6d94534f341246f8d4945fb8a438363adb1a51d5c74511c"
+            "sha256": "73d34437fe19ebe6d6c1cf394e5210961b8b2d1e668cac23dbdc44cbfe6f58d1"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -41,6 +41,10 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==1.0.1"
+        },
+        "pgbackup": {
+            "editable": true,
+            "file": "."
         },
         "python-dateutil": {
             "hashes": [
