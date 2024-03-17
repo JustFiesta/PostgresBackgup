@@ -1,3 +1,5 @@
+#!/usr/share/env python3
+
 def local(in_file, out_file):
     out_file.write(in_file.read())
     out_file.close()

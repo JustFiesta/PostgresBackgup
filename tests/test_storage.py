@@ -1,3 +1,5 @@
+#!/usr/share/env python3
+
 import tempfile
 import pytest
 

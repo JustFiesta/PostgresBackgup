@@ -1,3 +1,5 @@
+#!/usr/share/env python3
+
 import time
 
 from argparse import Action, ArgumentParser

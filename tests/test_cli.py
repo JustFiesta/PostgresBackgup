@@ -1,3 +1,5 @@
+#!/usr/share/env python3
+
 import pytest
 from src.pgbackup import cli
 
